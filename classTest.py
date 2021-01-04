@@ -19,7 +19,7 @@ class Virtual(Sample):
         self.texture = t
 
     def show(self):
-        super().show()
+        print(self.color,self.size)
         print(self.texture)
 
 
